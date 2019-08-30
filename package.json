@@ -4,7 +4,8 @@
   "description": "React Atoms, Molecules, Organisms",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/MrEcko/React-AMO/issues"
   },
-  "homepage": "https://github.com/MrEcko/React-AMO#readme"
+  "homepage": "https://github.com/MrEcko/React-AMO#readme",
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
 }
