@@ -20,23 +20,22 @@ React UI components - atoms, molecules, organisms
 
 ## Usage
 
-TBA
+In development - see the available components in [Storybook](https://storybook.js.org/)
+    npm run storybook
 
 ## Tests
-
-Jest is the JavaScript Testing Framework of choice
 
     npm test
 
 ## Toolchain
 
-A bundler, such as webpack or Parcel. It lets you write modular code and bundle it together into small packages to optimize load time.
-
-A compiler such as Babel. It lets you write modern JavaScript code that still works in older browsers.
-
 - Package Manager: [Node Package Manager](https://www.npmjs.com/package/npm)
 - Bundler: [Webpack](https://webpack.js.org/)
 - Compiler: [Babel](https://babeljs.io/)
+- Static type checker: [Flow](https://flow.org/)
+- JavaScript Testing Framework: [Jest](https://jestjs.io/)
+- Code Formatting: [Prettier](https://prettier.io/)
+- Linter: [ESLint](https://eslint.org/)
 
 ## License
 

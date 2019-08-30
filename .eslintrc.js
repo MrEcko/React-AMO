@@ -11,6 +11,7 @@ module.exports = {
     'plugin:react/recommended',
     'prettier',
     'plugin:prettier/recommended',
+    'plugin:flowtype/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:jest/recommended',
@@ -31,7 +32,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier', 'jest'],
+  plugins: ['react', 'prettier', 'flowtype', 'jest'],
   rules: {
     semi: ['error', 'never'],
     indent: ['error', 2],
