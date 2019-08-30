@@ -12,7 +12,8 @@
     "url": "git+https://github.com/MrEcko/React-AMO.git"
   },
   "keywords": [
-    "react"
+    "react",
+    "javascript"
   ],
   "author": "Laurentiu L.",
   "license": "SEE LICENSE IN LICENSE",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/MrEcko/React-AMO#readme",
   "devDependencies": {
+    "jest": "^24.9.0",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
   }
