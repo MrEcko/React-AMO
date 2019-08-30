@@ -10,16 +10,18 @@ module.exports = {
     'eslint:recommended',
     'plugin:react/recommended',
     'prettier',
+    'plugin:prettier/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:prettier/recommended',
     'plugin:jest/recommended',
+    'plugin:jsx-a11y/strict'
   ],
   globals: {
     __dirname: false,
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
+  parser: "babel-eslint",
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -45,6 +47,12 @@ module.exports = {
     'jest/expect-expect': 'error',
     'jest/valid-expect': 'error',
     'jest/valid-describe': 'error',
+    'jsx-a11y/label-has-for': [2, {
+      'required': {
+        'every': ['nesting', 'id']
+      },
+      'allowChildren': true
+    }]
   },
   settings: {
     react: {
