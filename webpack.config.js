@@ -1,5 +1,6 @@
 var path = require('path')
 
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const jsxRule = {
   test: /\.(js|jsx)$/,
   exclude: /node_modules/,
@@ -18,4 +19,5 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'react-amo.bundle.js',
   },
+  plugins: [new CleanWebpackPlugin()],
 }
