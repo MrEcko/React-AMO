@@ -1,0 +1,22 @@
+{
+  "name": "react-amo",
+  "version": "1.0.0",
+  "description": "React Atoms, Molecules, Organisms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrEcko/React-AMO.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Laurentiu L.",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/MrEcko/React-AMO/issues"
+  },
+  "homepage": "https://github.com/MrEcko/React-AMO#readme"
+}
